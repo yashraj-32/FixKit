@@ -1,0 +1,27 @@
+# Dependencies and generated files
+node_modules/
+dist/
+dist-electron/
+release/
+
+# Environment variables and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local application data, databases, and credentials
+*.db
+*.sqlite
+*.sqlite3
+*.sqlite-wal
+*.sqlite-shm
+credentials.bin
+
+# User screenshots and local OS/editor files
+screenshots/
+user-data/
+.DS_Store
+Thumbs.db
+.vscode/
